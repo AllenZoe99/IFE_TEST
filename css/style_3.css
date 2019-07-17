@@ -1,0 +1,52 @@
+header{
+	height: 9%;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	line-height:70px;
+	padding-left:30px;
+	background-color: gray;
+}
+
+.content{
+	height: 100%;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: "微软雅黑";
+	margin: 0 auto;
+}
+
+ul{
+	padding:0;
+}
+
+li{
+	list-style: none;
+}
+
+tr{
+	padding-top: 20px;
+}
+
+
+.section{
+	text-align: center;
+	line-height: 90px;
+	width: 90px;
+	height:120px;
+	background-color: #DCDCDC;
+	
+	float: left;
+}
+
+.info{
+	line-height: 30px;
+	border-bottom:1px solid #F5F5F5;
+	height:120px;
+}
+
+.css3{
+	font-size: 10px;
+}
