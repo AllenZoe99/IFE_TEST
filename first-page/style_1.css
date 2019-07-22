@@ -1,0 +1,178 @@
+
+*{
+	margin:0px;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 100%;
+	min-width: 960px;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+hr{
+	
+	border:1px solid #eeeeee;
+}
+
+ul,li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #333333;
+}
+
+.hd-bar{
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	display: inline;
+	color: white;
+	font-size: 20px;
+	line-height: 70px;
+	float: left;
+}
+
+header ul{
+	display: inline-block;
+	font-size: 12px;
+	float: right;
+	margin-top: 4px;
+}
+
+header ul li{
+	color: white;
+	display: inline-block;
+	padding-left: 4px;
+}
+
+header ul li a{
+	color: white;
+}
+
+.banner{
+	height: 200px;
+	background-color: #66bb33;
+	margin: 0px;
+}
+
+.banner-bar{
+	position: relative;
+	width: 960px;
+	margin:0 auto;
+}
+.banner ul{
+	position: absolute;
+	right: 0px;
+	bottom:10px;
+	display: inline-block;
+	
+}
+
+.banner ul li{
+	display: inline-block;
+	width: 20px;
+	height: 25px;
+	font-size: 8px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #b2dd99;
+	border:1px solid black;
+	overflow: hidden;
+}
+
+.active-page{
+	width: 30px;
+	height: 50px;
+	background-color:#e0f1d6; 
+}
+
+.nav{
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.info-box{
+	margin:auto;
+	width: 960px;
+	height: 60px;
+}
+
+.info-box ul{
+	position: relative;
+	margin-top:14px;
+}
+
+.info-box li{
+	float: left;
+	width:76px;
+}
+
+.info-box li a{
+	
+	display: inline-block;
+	font-size: 10px;
+	border:1px solid #e8e8e8;
+	border-radius: 16px;
+	text-align:center;
+	line-height: 4.5;
+	color: black;
+	background-color: #eeeeee;
+	cursor: pointer;
+	text-decoration: none;
+	width: 100%;
+}
+
+.info-box li a:focus, .info-box li a:hover{
+	background-color: white;
+}
+
+.info-box li a.active{
+	background-color: white;
+}
+
+.content-box{
+	margin:0 auto;
+	width: 960px;
+	display: flex;
+	flex-flow: column wrap;
+	position: relative;
+	font-size: 12px;
+	text-align: center;
+	line-height: 160px;
+}
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+	height: 160px;	
+	flex:1 100px;
+	margin: 6px;
+
+}
+
+article{
+	margin:2px;
+	flex: 1 200px;
+	border:1px solid #c9c9c9;
+	padding-right:80px;
+	padding-left: 80px;
+
+}
+
+footer{
+	font-size: 12px;
+	color: white;
+	height: 90px;
+	background-color: grey;
+	text-align: center;
+	line-height: 50px;
+}
